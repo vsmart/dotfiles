@@ -45,6 +45,7 @@ let mapleader = ","
 
 " Ctrl-p
 let g:ctrlp_map = '<leader>o'
+let g:ctrlp_custom_ignore = 'node_modules'
 
 " vim-go
 au FileType go nmap <Leader>t <Plug>(go-info)
