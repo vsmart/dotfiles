@@ -18,6 +18,7 @@ Plugin 'vim-go'
 Plugin 'vim-java'
 Plugin 'idris-vim'
 Plugin 'vim-clojure-static'
+Plugin 'VimClojure'
 Plugin 'syntastic'
 Plugin 'paredit.vim'
 Plugin 'xmledit'
@@ -45,11 +46,14 @@ let mapleader = ","
 
 " Ctrl-p
 let g:ctrlp_map = '<leader>o'
-let g:ctrlp_custom_ignore = 'node_modules'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|out\|target'
 
 " vim-go
 au FileType go nmap <Leader>t <Plug>(go-info)
 au FileType go nmap <Leader>g <Plug>(go-import)
+
+" Use clj syntax highlighting for cljs
+au BufNewFile,BufRead *.cljs set filetype=clojure
 
 " Insert single space
 nmap <Space> i_<Esc>r
