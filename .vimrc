@@ -12,19 +12,21 @@ Plugin 'gmarik/Vundle.vim'
 
 Bundle 'derekwyatt/vim-scala'
 Bundle 'kien/rainbow_parentheses.vim'
-Plugin 'vim-elixir'
-Plugin 'vim-mix'
-Plugin 'vim-go'
-Plugin 'vim-java'
-Plugin 'idris-vim'
-Plugin 'vim-clojure-static'
-Plugin 'VimClojure'
+Plugin 'elixir-lang/vim-elixir'
+Plugin 'mattonrails/vim-mix'
+Plugin 'fatih/vim-go'
+Plugin 'rudes/vim-java'
+Plugin 'idris-hackers/idris-vim'
+Plugin 'guns/vim-clojure-static'
+Plugin 'vim-scripts/VimClojure'
 Plugin 'syntastic'
 Plugin 'paredit.vim'
 Plugin 'xmledit'
 Plugin 'ctrlp.vim'
-Plugin 'vim-fireplace'
-Plugin 'YouCompleteMe'
+Plugin 'tpope/vim-fireplace'
+" For YouCompleteMe, more install steps are needed:
+" https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64
+Plugin 'Valloric/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
