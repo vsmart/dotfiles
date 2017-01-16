@@ -23,6 +23,8 @@ Plugin 'syntastic'
 Plugin 'paredit.vim'
 Plugin 'xmledit'
 Plugin 'ctrlp.vim'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 Plugin 'tpope/vim-fireplace'
 " For YouCompleteMe, more install steps are needed:
 " https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64
