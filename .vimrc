@@ -59,6 +59,9 @@ au FileType go nmap <Leader>g <Plug>(go-import)
 " Use clj syntax highlighting for cljs
 au BufNewFile,BufRead *.cljs set filetype=clojure
 
+" disable folding for vim-markdown
+let g:vim_markdown_folding_disabled = 1
+
 " Insert single space
 nmap <Space> i_<Esc>r
 
