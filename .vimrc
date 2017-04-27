@@ -44,13 +44,14 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+"
 
 " leader stuff
 let mapleader = ","
 
 " Ctrl-p
 let g:ctrlp_map = '<leader>o'
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|out\|target'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|target'
 
 " vim-go
 au FileType go nmap <Leader>t <Plug>(go-info)
@@ -68,6 +69,7 @@ nmap <Space> i_<Esc>r
 syntax on
 set expandtab
 set tabstop=2
+set shiftwidth=2
 
 autocmd BufWritePre * :%s/\s\+$//e
 
