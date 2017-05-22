@@ -26,6 +26,8 @@ Plugin 'ctrlp.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'tpope/vim-fireplace'
+Plugin 'pangloss/vim-javascript'
+Plugin 'moll/vim-node'
 " For YouCompleteMe, more install steps are needed:
 " https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64
 Plugin 'Valloric/YouCompleteMe'
