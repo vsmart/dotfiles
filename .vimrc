@@ -31,6 +31,7 @@ Plugin 'moll/vim-node'
 " For YouCompleteMe, more install steps are needed:
 " https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64
 Plugin 'Valloric/YouCompleteMe'
+Bundle 'mrk21/yaml-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -72,6 +73,9 @@ syntax on
 set expandtab
 set tabstop=2
 set shiftwidth=2
+
+" required for YouCompleteMe
+set encoding=utf-8
 
 autocmd BufWritePre * :%s/\s\+$//e
 
