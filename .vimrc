@@ -32,6 +32,7 @@ Plugin 'moll/vim-node'
 " https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64
 Plugin 'Valloric/YouCompleteMe'
 Bundle 'mrk21/yaml-vim'
+Plugin 'rust-lang/rust.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
